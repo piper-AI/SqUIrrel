@@ -9,7 +9,7 @@ const ADD_BOOKMARKS_ID = 'create-bookmarks';
 function createAddBookmarksWindow() {
   createWindow(
     ADD_BOOKMARKS_ID,
-    'Create Bookmarks Window',
+    'Create a new Folder',
     `<div class="padded-content">
       <div class="input-field">
         <label>Name</label>
@@ -89,7 +89,7 @@ function createAddVideoWindow() {
 function createAddBookmarkWindow(id, options = {}) {
   createWindow(
     ADD_BOOKMARK_ID,
-    'Create Bookmark',
+    'Add App',
     `<div class="padded-content">
       <div class="input-field">
         <label>Name</label>
@@ -266,7 +266,7 @@ function bookmarkContent(id, bookmarks) {
       <p class="toolbar-text">${bookmarks.length} items</p>
       <p class="toolbar-text">${bookmarks.length * 128}K in Folder</p>
       <button class="toolbar-button" onclick="createAddBookmarkWindow('${id}')">
-        Add Bookmark
+        Add App
       </button>
     </div>
     <ul class="bookmark-list">${lis.join('')}</ul>
