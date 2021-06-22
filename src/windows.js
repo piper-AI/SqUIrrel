@@ -9,7 +9,7 @@ const ADD_BOOKMARKS_ID = 'create-bookmarks';
 function createAddBookmarksWindow() {
   createWindow(
     ADD_BOOKMARKS_ID,
-    'Create Bookmarks Window',
+    'Create New Folder',
     `<div class="padded-content">
       <div class="input-field">
         <label>Name</label>
