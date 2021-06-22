@@ -217,7 +217,7 @@ function createConfigWindow() {
           <option value="default">Default</option>  
           <option value="dark">Dark</option>
         </select>
-      </div> */
+      </div>
 
 function createBookmarkWindow(id, options = {}) {
   createWindow(
