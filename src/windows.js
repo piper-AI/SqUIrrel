@@ -89,7 +89,7 @@ function createAddVideoWindow() {
 function createAddBookmarkWindow(id, options = {}) {
   createWindow(
     ADD_BOOKMARK_ID,
-    'Create Bookmark',
+    'Add App',
     `<div class="padded-content">
       <div class="input-field">
         <label>Name</label>
@@ -211,7 +211,7 @@ function createConfigWindow() {
   );
 }
 
-/* <div class="input-field">
+ <div class="input-field">
         <label>Theme</label>
         <select id="theme-input" name="theme-input">
           <option value="default">Default</option>  
@@ -266,7 +266,7 @@ function bookmarkContent(id, bookmarks) {
       <p class="toolbar-text">${bookmarks.length} items</p>
       <p class="toolbar-text">${bookmarks.length * 128}K in Folder</p>
       <button class="toolbar-button" onclick="createAddBookmarkWindow('${id}')">
-        Add Bookmark
+        Add App
       </button>
     </div>
     <ul class="bookmark-list">${lis.join('')}</ul>
