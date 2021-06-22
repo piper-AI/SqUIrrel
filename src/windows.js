@@ -204,14 +204,14 @@ function createConfigWindow() {
 
       
 
-/*  <div class="button-field">
+  <div class="button-field">
         <button class="button" onclick="updateConfig()">SAVE</button>
       </div>
     </div>`
   );
 }
 
-*/ <div class="input-field">
+/* <div class="input-field">
         <label>Theme</label>
         <select id="theme-input" name="theme-input">
           <option value="default">Default</option>  
