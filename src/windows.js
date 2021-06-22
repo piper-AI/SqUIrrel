@@ -211,13 +211,13 @@ function createConfigWindow() {
   );
 }
 
- <div class="input-field">
+*/ <div class="input-field">
         <label>Theme</label>
         <select id="theme-input" name="theme-input">
           <option value="default">Default</option>  
           <option value="dark">Dark</option>
         </select>
-      </div>
+      </div> */
 
 function createBookmarkWindow(id, options = {}) {
   createWindow(
