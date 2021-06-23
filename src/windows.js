@@ -173,7 +173,7 @@ function createWebpageWindow(id, title, url) {
 function createConfigWindow() {
   createWindow(
     CONFIG_ID,
-    'Settings',
+    'SqUIrrel v1 Settings',
     `<div class="padded-content">
       <div class="input-field">
         <label>Wallpaper</label>
