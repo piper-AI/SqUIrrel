@@ -173,7 +173,7 @@ function createWebpageWindow(id, title, url) {
 function createConfigWindow() {
   createWindow(
     CONFIG_ID,
-    'SqUIrrel Settings',
+    'SqUIrrel v1.0 Settings',
     `<div class="padded-content">
       <div class="input-field">
         <label>Wallpaper</label>
@@ -185,7 +185,7 @@ function createConfigWindow() {
         <button
           id="internal-webpages-input"
           class="button ${config.internalWebpages ? 'active' : ''}"
-          onclick="toggleButton('internal-webpages-input', ['Internal', 'External'])"
+          onclick="toggleButton('internal-webpages-input', ['Internal`', 'External'])"
         >
           ${config.internalWebpages ? 'Interal' : 'External'}
         </button>
