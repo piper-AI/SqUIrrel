@@ -173,7 +173,7 @@ function createWebpageWindow(id, title, url) {
 function createConfigWindow() {
   createWindow(
     CONFIG_ID,
-    'SqUIrrel v1 Settings',
+    'SqUIrrel Settings',
     `<div class="padded-content">
       <div class="input-field">
         <label>Wallpaper</label>
@@ -196,9 +196,9 @@ function createConfigWindow() {
         <button
           id="tab-webpages-input"
           class="button ${config.newTab ? 'active' : ''}"
-          onclick="toggleButton('tab-webpages-input', ['New Tab', 'Same Window'])"
+          onclick="toggleButton('tab-webpages-input', ['Same Window', 'New Tab'])"
         >
-          ${config.newTab ? 'New Tab' : 'Same Window'}
+          ${config.newTab ? 'Same Window' : 'New Tab'}
         </button>
       </div>
 
