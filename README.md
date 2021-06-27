@@ -1,9 +1,8 @@
-# StartOS
+# SqUIrrel
 
-A startpage designed to look like your favorite OS from the 90's.
+A second desktop with lots of functionality
 
 - Moveable & resizeable windows
-- Local device storage for bookmarks and windows
+- Local device storage for Folders and windows
 - Built-in customization
-
-![StartOS Screenshot](media/screenshot.png)
+- Run as main OS or as a second desktop
