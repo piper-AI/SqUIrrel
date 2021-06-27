@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 :root {
-  --default-bg: #40b4c4;
+  --default-bg: #ffffff;
 
   --window-bg: #d0d0d0;
   --window-toolbar-bg: var(--window-bg);
@@ -76,8 +76,8 @@ body {
 .toolbar {
   width: 100%;
   height: 24px;
-  background-color: var(#ffffff);
-  border-bottom: var(#ffffff);
+  background-color: var(--window-bg);
+  border-bottom: var(--window-border);
   display: flex;
   align-items: center;
   justify-content: space-between;
