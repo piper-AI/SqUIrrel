@@ -6,11 +6,29 @@
     <title>SquirrelOS</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <style>
-    html {
-      cursor: url('cursor.png')
+      <style type="text/css">
+        html {
+            overflow: auto;
         }
-  </style>
+          
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+          
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
   <body>
     <div class="toolbar">
       <div class="toolbar-section">
