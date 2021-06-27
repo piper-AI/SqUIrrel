@@ -401,3 +401,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.icon {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	cursor: url("cursor.png") 5 2, pointer;
+}
