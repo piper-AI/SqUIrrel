@@ -118,7 +118,7 @@ function createImageWindow(id) {
       style="background-image:url('${windows[id].url}');"
       alt="${windows[id].title}"
     ></div>`,
-    { width: '900px', height: '600px' }
+    { width: '300px', height: '500px' }
   );
 }
 
@@ -134,7 +134,7 @@ function createVideoWindow(id) {
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"
       allowfullscreen
     />"`,
-    { width: '900px', height: '600px' }
+    { width: '300px', height: '500px' }
   );
 }
 
@@ -166,7 +166,7 @@ function createWebpageWindow(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="${windows[id].url}" title="${windows[id].title}"></iframe>`,
-    { width: '900px', height: '600px' }
+    { width: '300px', height: '500px' }
   );
 }
 
@@ -186,14 +186,54 @@ function createdirectory(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://thedirectory.koiltech.repl.co" title="[thedirectory]"></iframe>`,
-    { width: '400px', height: '300px' }
+    { width: '300px', height: '500px' }
+  );
+}
+
+function createsearch(id, title, url) {
+  if (!id) id = genId();
+
+  if (!windows[id]) {
+    windows[id] = {
+      title,
+      url,
+      location: { x: DEFAULT_LOCATON.x, y: DEFAULT_LOCATON.y },
+    };
+    saveWindows();
+  }
+
+  createWindow(
+    id,
+    windows[id].title,
+    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/seARch/" title="seARch!!"></iframe>`,
+    { width: '300px', height: '500px' }
+  );
+}
+
+function createcalc(id, title, url) {
+  if (!id) id = genId();
+
+  if (!windows[id]) {
+    windows[id] = {
+      title,
+      url,
+      location: { x: DEFAULT_LOCATON.x, y: DEFAULT_LOCATON.y },
+    };
+    saveWindows();
+  }
+
+  createWindow(
+    id,
+    windows[id].title,
+    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/calculator.html" title="Calculator"></iframe>`,
+    { width: '300px', height: '500px' }
   );
 }
 
 function createConfigWindow() {
   createWindow(
     CONFIG_ID,
-    'SqUIrrel Settings',
+    'Henry, The Everthing App Settings',
     `<div class="padded-content">
       <div class="input-field">
         <label>Wallpaper</label>
