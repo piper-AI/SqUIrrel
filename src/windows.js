@@ -118,7 +118,7 @@ function createImageWindow(id) {
       style="background-image:url('${windows[id].url}');"
       alt="${windows[id].title}"
     ></div>`,
-    { width: '350px', height: '650px' }
+    { width: '350px', height: '600px' }
   );
 }
 
@@ -134,7 +134,7 @@ function createVideoWindow(id) {
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"
       allowfullscreen
     />"`,
-    { width: '350px', height: '650px' }
+    { width: '350px', height: '600px' }
   );
 }
 
@@ -166,7 +166,7 @@ function createWebpageWindow(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="${windows[id].url}" title="${windows[id].title}"></iframe>`,
-    { width: '350px', height: '650px' }
+    { width: '350px', height: '600px' }
   );
 }
 
@@ -186,7 +186,7 @@ function createdirectory(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://thedirectory.koiltech.repl.co" title="[thedirectory]"></iframe>`,
-    { width: '350px', height: '650px' }
+    { width: '350px', height: '600px' }
   );
 }
 
@@ -206,7 +206,7 @@ function createsearch(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://piper-ai.github.io/seARch/" title="seARch!!"></iframe>`,
-    { width: '350px', height: '650px' }
+    { width: '350px', height: '600px' }
   );
 }
 
@@ -225,8 +225,8 @@ function createcalc(id, title, url) {
   createWindow(
     id,
     windows[id].title,
-    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/calculator.html" title="Calculator"></iframe>`,
-    { width: '350px', height: '650px' }
+    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/kevcoin.html" title="Calculator"></iframe>`,
+    { width: '350px', height: '600px' }
   );
 }
 
