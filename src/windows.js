@@ -20,7 +20,7 @@ function createAddBookmarksWindow() {
         <button class="button" onclick="addBookmarks()">OK</button>
       </div>
     </div>`,
-    { width: '300px', height: 'auto' }
+    { width: '350px', height: 'auto' }
   );
 }
 
@@ -38,7 +38,7 @@ function createAddNoteWindow() {
         <button class="button" onclick="addNote()">OK</button>
       </div>
     </div>`,
-    { width: '300px', height: 'auto' }
+    { width: '350px', height: 'auto' }
   );
 }
 
@@ -60,7 +60,7 @@ function createAddPictureWindow() {
         <button class="button" onclick="addPicture()">OK</button>
       </div>
     </div>`,
-    { width: '300px', height: 'auto' }
+    { width: '350px', height: 'auto' }
   );
 }
 
@@ -82,7 +82,7 @@ function createAddVideoWindow() {
         <button class="button" onclick="addVideo()">OK</button>
       </div>
     </div>`,
-    { width: '300px', height: 'auto' }
+    { width: '350px', height: 'auto' }
   );
 }
 
@@ -104,7 +104,7 @@ function createAddBookmarkWindow(id, options = {}) {
         <button class="button" onclick="addBookmark('${id}')">OK</button>
       </div>
     </div>`,
-    { width: '300px', height: 'auto', ...options }
+    { width: '350px', height: 'auto', ...options }
   );
 }
 
@@ -118,7 +118,7 @@ function createImageWindow(id) {
       style="background-image:url('${windows[id].url}');"
       alt="${windows[id].title}"
     ></div>`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
@@ -134,7 +134,7 @@ function createVideoWindow(id) {
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"
       allowfullscreen
     />"`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
@@ -166,7 +166,7 @@ function createWebpageWindow(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="${windows[id].url}" title="${windows[id].title}"></iframe>`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
@@ -186,7 +186,7 @@ function createdirectory(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://thedirectory.koiltech.repl.co" title="[thedirectory]"></iframe>`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
@@ -206,7 +206,7 @@ function createsearch(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://piper-ai.github.io/seARch/" title="seARch!!"></iframe>`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
@@ -226,7 +226,7 @@ function createcalc(id, title, url) {
     id,
     windows[id].title,
     `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/calculator.html" title="Calculator"></iframe>`,
-    { width: '300px', height: '500px' }
+    { width: '350px', height: '700px' }
   );
 }
 
