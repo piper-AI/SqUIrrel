@@ -225,7 +225,7 @@ function createcalc(id, title, url) {
   createWindow(
     id,
     windows[id].title,
-    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/kevcoin.html" title="Calculator"></iframe>`,
+    `<iframe class="webpage-iframe" src="https://piper-ai.github.io/Henry/kevcoin.html" title="KevCoin"></iframe>`,
     { width: '350px', height: '600px' }
   );
 }
