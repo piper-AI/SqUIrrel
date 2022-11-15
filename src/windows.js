@@ -170,6 +170,26 @@ function createWebpageWindow(id, title, url) {
   );
 }
 
+function createdirectory(id, title, url) {
+  if (!id) id = genId();
+
+  if (!windows[id]) {
+    windows[id] = {
+      title,
+      url,
+      location: { x: DEFAULT_LOCATON.x, y: DEFAULT_LOCATON.y },
+    };
+    saveWindows();
+  }
+
+  createWindow(
+    id,
+    windows[id].title,
+    `<iframe class="webpage-iframe" src="https://thedirectory.koiltech.repl.co" title="[thedirectory]"></iframe>`,
+    { width: '400px', height: '300px' }
+  );
+}
+
 function createConfigWindow() {
   createWindow(
     CONFIG_ID,
