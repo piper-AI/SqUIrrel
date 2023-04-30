@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Example</title>
+	<style>
+		.webpage-iframe {
+			width: 350px;
+			height: 600px;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="searchInput">Search:</label>
+		<input type="text" id="searchInput" name="searchInput">
+		<button type="button" onclick="search()">Search</button>
+	</form>
+	<br>
+	<div>
+		<iframe class="webpage-iframe" src="https://piper-ai.github.io/seARch/" title="seARch!!"></iframe>
+	</div>
+
+	<script>
+		function search() {
+			var searchInput = document.getElementById("searchInput").value;
+			var searchUrl = "https://piper-ai.github.io/seARch/seARch.html?q=" + searchInput;
+			document.querySelector(".webpage-iframe").src = searchUrl;
+		}
+	</script>
+</body>
+</html>
