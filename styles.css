@@ -5,7 +5,7 @@
 
   --window-bg: #000000;
   --window-toolbar-bg: var(--window-bg);
-  --window-border: 1px solid black;
+  --window-border: 1px solid #00FFFF;
   --window-shadow: 4px 4px rgba(0, 0, 0, 0.3);
 
   --input-bg: white;
