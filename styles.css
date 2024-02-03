@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 :root {
-  --default-bg: grey;
+  --default-bg: #000000;
 
-  --window-bg: #FFFFFF;
+  --window-bg: #000000;
   --window-toolbar-bg: var(--window-bg);
   --window-border: 1px solid black;
   --window-shadow: 4px 4px rgba(0, 0, 0, 0.3);
@@ -12,7 +12,7 @@
 
   --hover-bg: rgba(0, 0, 0, 0.1);
 
-  --font-color: black;
+  --font-color: #00FFFF;
   --font-invert-color: white;
   --font-family: "Alata", sans-serif;
 }
@@ -22,7 +22,7 @@ body.dark {
 
   --window-bg: #FFFFFF;
   --window-toolbar-bg: var(--window-bg);
-  --window-border: 1px solid black;
+  --window-border: 1px solid #00FFFF;
   --window-shadow: 4px 4px rgba(0, 0, 0, 0.3);
 
   --input-bg: var(--window-bg);
@@ -35,7 +35,7 @@ body.dark {
 }
 
 body.vapor {
-  --default-bg: white;
+  --default-bg: #000000;
 
   --window-bg: #fdc6ee;
   --window-toolbar-bg: var(--window-bg);
